@@ -58,10 +58,10 @@
 
         function onEachFeature(feature, layer) {
             var popupContent = '<p><b>' +
-                feature.properties.NAME + '</b></p>' + '<br/>' +
+                feature.properties.NAME + '</b></p>' +
                 'Gemeinde ' + feature.properties.GEMEINDE +
-                'Kreis '
-            feature.properties.KREIS;
+                'Kreis ' + feature.properties.KREIS +
+                'Objektart: ' + feature.properties.OBA;
 
 
             layer.bindPopup(popupContent);

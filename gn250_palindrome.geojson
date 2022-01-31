@@ -1,0 +1,666 @@
+var geoJson = {
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "EPSG:4326"
+        }
+    },
+    "features": [{
+        "type": "Feature",
+        "id": 1,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.0947073343914, 49.8255765052574]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Burggrub",
+            "GEMEINDE": "Krummennaab",
+            "KREIS": "Tirschenreuth",
+            "BUNDESLAND": "Bayern",
+            "OBJECTID_1": 1
+        }
+    }, {
+        "type": "Feature",
+        "id": 2,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.6360777337139, 52.5438192635085]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Staats",
+            "GEMEINDE": "Stendal",
+            "KREIS": "Stendal",
+            "BUNDESLAND": "Sachsen-Anhalt",
+            "OBJECTID_1": 2
+        }
+    }, {
+        "type": "Feature",
+        "id": 3,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [14.1782205954108, 53.3781558198933]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Woddow",
+            "GEMEINDE": "Brüssow",
+            "KREIS": "Uckermark",
+            "BUNDESLAND": "Brandenburg",
+            "OBJECTID_1": 3
+        }
+    }, {
+        "type": "Feature",
+        "id": 4,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.5621934379226, 49.9196820275908]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Saas",
+            "GEMEINDE": "Bayreuth",
+            "KREIS": "Bayreuth",
+            "BUNDESLAND": "Bayern",
+            "OBJECTID_1": 4
+        }
+    }, {
+        "type": "Feature",
+        "id": 5,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.57065437570885, 50.9171190616077]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Aua",
+            "GEMEINDE": "Neuenstein",
+            "KREIS": "Hersfeld-Rotenburg",
+            "BUNDESLAND": "Hessen",
+            "OBJECTID_1": 5
+        }
+    }, {
+        "type": "Feature",
+        "id": 6,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.2650180956344, 50.2898390238734]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Burggrub",
+            "GEMEINDE": "Stockheim",
+            "KREIS": "Kronach",
+            "BUNDESLAND": "Bayern",
+            "OBJECTID_1": 6
+        }
+    }, {
+        "type": "Feature",
+        "id": 7,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.91878885968, 53.6387407485137]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Kukuk",
+            "GEMEINDE": "Hohen Pritz",
+            "KREIS": "Ludwigslust-Parchim",
+            "BUNDESLAND": "Mecklenburg-Vorpommern",
+            "OBJECTID_1": 7
+        }
+    }, {
+        "type": "Feature",
+        "id": 8,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [6.57994968111871, 51.8148567542211]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Mussum",
+            "GEMEINDE": "Bocholt",
+            "KREIS": "Borken",
+            "BUNDESLAND": "Nordrhein-Westfalen",
+            "OBJECTID_1": 8
+        }
+    }, {
+        "type": "Feature",
+        "id": 9,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.138867117543, 49.8754734597119]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Burggrub",
+            "GEMEINDE": "Heiligenstadt i. OFr.",
+            "KREIS": "Bamberg",
+            "BUNDESLAND": "Bayern",
+            "OBJECTID_1": 9
+        }
+    }, {
+        "type": "Feature",
+        "id": 10,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [8.76766489874788, 51.2367178080583]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Eppe",
+            "GEMEINDE": "Korbach",
+            "KREIS": "Waldeck-Frankenberg",
+            "BUNDESLAND": "Hessen",
+            "OBJECTID_1": 10
+        }
+    }, {
+        "type": "Feature",
+        "id": 11,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [8.00793593711243, 52.4320926244465]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Epe",
+            "GEMEINDE": "Bramsche",
+            "KREIS": "Osnabrück",
+            "BUNDESLAND": "Niedersachsen",
+            "OBJECTID_1": 11
+        }
+    }, {
+        "type": "Feature",
+        "id": 12,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.23418626876862, 52.0300218445992]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Reher",
+            "GEMEINDE": "Aerzen",
+            "KREIS": "Hameln-Pyrmont",
+            "BUNDESLAND": "Niedersachsen",
+            "OBJECTID_1": 12
+        }
+    }, {
+        "type": "Feature",
+        "id": 13,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [7.04443966942677, 52.1811632973968]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Epe",
+            "GEMEINDE": "Gronau (Westf.)",
+            "KREIS": "Borken",
+            "BUNDESLAND": "Nordrhein-Westfalen",
+            "OBJECTID_1": 13
+        }
+    }, {
+        "type": "Feature",
+        "id": 14,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [8.87608584522168, 48.890602637688]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Serres",
+            "GEMEINDE": "Wiernsheim",
+            "KREIS": "Enzkreis",
+            "BUNDESLAND": "Baden-Württemberg",
+            "OBJECTID_1": 14
+        }
+    }, {
+        "type": "Feature",
+        "id": 15,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [6.75328216285963, 52.4989112847465]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Egge",
+            "GEMEINDE": "Itterbeck",
+            "KREIS": "Grafschaft Bentheim",
+            "BUNDESLAND": "Niedersachsen",
+            "OBJECTID_1": 15
+        }
+    }, {
+        "type": "Feature",
+        "id": 16,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.57358765286307, 54.065855910723]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Reher",
+            "GEMEINDE": "Reher",
+            "KREIS": "Steinburg",
+            "BUNDESLAND": "Schleswig-Holstein",
+            "OBJECTID_1": 16
+        }
+    }, {
+        "type": "Feature",
+        "id": 17,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.7480942942633, 49.0966137336883]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Aha",
+            "GEMEINDE": "Gunzenhausen",
+            "KREIS": "Weißenburg-Gunzenhausen",
+            "BUNDESLAND": "Bayern",
+            "OBJECTID_1": 17
+        }
+    }, {
+        "type": "Feature",
+        "id": 18,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.36590074690948, 53.6181777895571]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Hammah",
+            "GEMEINDE": "Hammah",
+            "KREIS": "Stade",
+            "BUNDESLAND": "Niedersachsen",
+            "OBJECTID_1": 18
+        }
+    }, {
+        "type": "Feature",
+        "id": 19,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.18451758701348, 52.080537628772]
+        },
+        "properties": {
+            "OBA": "AX_Ortslage",
+            "OBA_WERT": " ",
+            "NAME": "Egge",
+            "GEMEINDE": "Aerzen",
+            "KREIS": "Hameln-Pyrmont",
+            "BUNDESLAND": "Niedersachsen",
+            "OBJECTID_1": 19
+        }
+    }, {
+        "type": "Feature",
+        "id": 20,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.36590099967589, 53.6181779991164]
+        },
+        "properties": {
+            "OBA": "AX_Gemeinde",
+            "OBA_WERT": " ",
+            "NAME": "Hammah",
+            "GEMEINDE": "Hammah",
+            "KREIS": "Stade",
+            "BUNDESLAND": "Niedersachsen",
+            "OBJECTID_1": 20
+        }
+    }, {
+        "type": "Feature",
+        "id": 21,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.1018640006311, 49.2944499992545]
+        },
+        "properties": {
+            "OBA": "AX_Gemeinde",
+            "OBA_WERT": " ",
+            "NAME": "Soos",
+            "GEMEINDE": "Soos",
+            "KREIS": "Roth",
+            "BUNDESLAND": "Bayern",
+            "OBJECTID_1": 21
+        }
+    }, {
+        "type": "Feature",
+        "id": 22,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.57358799940693, 54.0658559989502]
+        },
+        "properties": {
+            "OBA": "AX_Gemeinde",
+            "OBA_WERT": " ",
+            "NAME": "Reher",
+            "GEMEINDE": "Reher",
+            "KREIS": "Steinburg",
+            "BUNDESLAND": "Schleswig-Holstein",
+            "OBJECTID_1": 22
+        }
+    }, {
+        "type": "Feature",
+        "id": 23,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [8.46444399982583, 52.2908299995262]
+        },
+        "properties": {
+            "OBA": "AX_Wald",
+            "OBA_WERT": " ",
+            "NAME": "Egge",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 23
+        }
+    }, {
+        "type": "Feature",
+        "id": 24,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.59277700003973, 54.0566599994824]
+        },
+        "properties": {
+            "OBA": "AX_Wald",
+            "OBA_WERT": " ",
+            "NAME": "Reher",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 24
+        }
+    }, {
+        "type": "Feature",
+        "id": 25,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.7672199997746, 54.1927699987661]
+        },
+        "properties": {
+            "OBA": "AX_Wald",
+            "OBA_WERT": " ",
+            "NAME": "Kukuk",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 25
+        }
+    }, {
+        "type": "Feature",
+        "id": 26,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [8.54583299949441, 51.4052699989282]
+        },
+        "properties": {
+            "OBA": "Gewaesser",
+            "OBA_WERT": " ",
+            "NAME": "Aa",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 26
+        }
+    }, {
+        "type": "Feature",
+        "id": 27,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [8.73111099989889, 51.4908299993679]
+        },
+        "properties": {
+            "OBA": "Gewaesser",
+            "OBA_WERT": " ",
+            "NAME": "Aa",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 27
+        }
+    }, {
+        "type": "Feature",
+        "id": 28,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [8.9011109995168, 53.7774899991673]
+        },
+        "properties": {
+            "OBA": "Gewaesser",
+            "OBA_WERT": " ",
+            "NAME": "Medem",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 28
+        }
+    }, {
+        "type": "Feature",
+        "id": 29,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [6.38083299998154, 50.8905499987996]
+        },
+        "properties": {
+            "OBA": "Gewaesser",
+            "OBA_WERT": " ",
+            "NAME": "Rur",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 29
+        }
+    }, {
+        "type": "Feature",
+        "id": 30,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.7044400007223, 52.0661099991726]
+        },
+        "properties": {
+            "OBA": "Gewaesser",
+            "OBA_WERT": " ",
+            "NAME": "Adda",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 30
+        }
+    }, {
+        "type": "Feature",
+        "id": 31,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.83916600044813, 49.3611099991338]
+        },
+        "properties": {
+            "OBA": "Gewaesser",
+            "OBA_WERT": " ",
+            "NAME": "Ette",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 31
+        }
+    }, {
+        "type": "Feature",
+        "id": 32,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.06361099957451, 51.735829999406]
+        },
+        "properties": {
+            "OBA": "Gewaesser",
+            "OBA_WERT": " ",
+            "NAME": "Aa",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 32
+        }
+    }, {
+        "type": "Feature",
+        "id": 33,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.0938800005677, 50.9805499990912]
+        },
+        "properties": {
+            "OBA": "Gewaesser",
+            "OBA_WERT": " ",
+            "NAME": "Aga",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 33
+        }
+    }, {
+        "type": "Feature",
+        "id": 34,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.40611099990148, 51.4833299991821]
+        },
+        "properties": {
+            "OBA": "Gewaesser",
+            "OBA_WERT": " ",
+            "NAME": "Esse",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 34
+        }
+    }, {
+        "type": "Feature",
+        "id": 35,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.1006110614239, 49.2946606842773]
+        },
+        "properties": {
+            "OBA": "AX_Verwaltungsgemeinschaft",
+            "OBA_WERT": " ",
+            "NAME": "Soos",
+            "GEMEINDE": " ",
+            "KREIS": "Roth",
+            "BUNDESLAND": "Bayern",
+            "OBJECTID_1": 35
+        }
+    }, {
+        "type": "Feature",
+        "id": 36,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [6.95272651045047, 53.3487773750427]
+        },
+        "properties": {
+            "OBA": "AX_Gewaessermerkmal",
+            "OBA_WERT": "Watt",
+            "NAME": "Paap",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 36
+        }
+    }, {
+        "type": "Feature",
+        "id": 37,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [10.9149248839216, 50.0777836486559]
+        },
+        "properties": {
+            "OBA": "AX_Wald",
+            "OBA_WERT": " ",
+            "NAME": "Geheg",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 37
+        }
+    }, {
+        "type": "Feature",
+        "id": 38,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [11.2574869597323, 49.4742638195853]
+        },
+        "properties": {
+            "OBA": "AX_Wald",
+            "OBA_WERT": " ",
+            "NAME": "Soos",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 38
+        }
+    }, {
+        "type": "Feature",
+        "id": 39,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [8.13618386627563, 47.8339970564683]
+        },
+        "properties": {
+            "OBA": "AX_Bahnverkehrsanlage",
+            "OBA_WERT": "Bahnhof",
+            "NAME": "Aha",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 39
+        }
+    }, {
+        "type": "Feature",
+        "id": 40,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.37463301637163, 53.611006841201]
+        },
+        "properties": {
+            "OBA": "AX_Bahnverkehrsanlage",
+            "OBA_WERT": "Haltepunkt",
+            "NAME": "Hammah",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 40
+        }
+    }, {
+        "type": "Feature",
+        "id": 41,
+        "geometry": {
+            "type": "Point",
+            "coordinates": [7.70891255251373, 49.9434434537038]
+        },
+        "properties": {
+            "OBA": "Gewaesser",
+            "OBA_WERT": " ",
+            "NAME": "XXXX",
+            "GEMEINDE": " ",
+            "KREIS": " ",
+            "BUNDESLAND": " ",
+            "OBJECTID_1": 41
+        }
+    }]
+};
